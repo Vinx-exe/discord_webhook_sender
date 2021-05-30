@@ -51,7 +51,7 @@ a, a:visited {
     background-size: 800% 800%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 19px;
+    font-size: 35px;
     animation: rainbow 8s ease infinite;
   }
   
