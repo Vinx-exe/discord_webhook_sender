@@ -1,14 +1,26 @@
-oom on<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Discord Webhook Sender</title>
-  <meta name="author" content="Zua">
+  <meta name="author" content="Nex">
   <meta name="description" content="Simple Discord Webhook Sender">
-  <meta name="keywords" content="discord,zua,webhook">
+  <meta name="keywords" content="discord,nex,webhook">
   <meta name="title" content="Discord Webhook Sender">
   <link rel="stylesheet" href="https://gitcdn.link/repo/Vinx-exe/discord_webhook_sender/main/stylesheet.css" type="text/css">
+  <!-- Prompt requires user to press "Ok" button to continue, else, reload. -->
+  <script>
+    do{
+var sign = prompt("Press \"Ok\" to continue to site");
+}while(sign == null || input == "");
+while(sign == "" || input =="");
+if (sign.toString() == "Ok") {
+}
+else {
+window.location.reload()
+}
+  </script>
   </head>
   <body>
 
@@ -20,7 +32,7 @@ oom on<!DOCTYPE html>
         <p>Webhook Link:</p><input type='password' id="link" placeholder="Enter Discord Webhook url" required>
         <p>Bot Username:</p><input type="text" id="username" placeholder="Type the Username of the Webhook here (Optional, but recommended)" value="">
         <p>Avatar URL:</p><input type="text" id="avatar" placeholder="Image URL">
-        <p>Content:</p><input type="text" id="content" placeholder="Type the Content of the Webhook here">
+        <p>Content:</p><input type="text" id="content" placeholder="Enter message here">
         <br>
         <button id="btn">Send</button>
         <center>
