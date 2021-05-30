@@ -153,3 +153,6 @@ a, a:visited {
     border-radius: 25px;
     border: solid #000000; 
 }
+input:focus {
+    outline:none;
+}
