@@ -9,6 +9,7 @@
   <meta name="keywords" content="discord,nex,webhook">
   <meta name="title" content="Discord Webhook Sender">
   <link rel="stylesheet" href="https://gitcdn.link/repo/Vinx-exe/discord_webhook_sender/main/stylesheet.css" type="text/css">
+  <!-- <link rel="stylesheet" href="removing_white_outline.css" type="text/css"> -->
   <!-- Prompt requires user to press "Ok" button to continue, else, reload. -->
   <!--
   <script>
@@ -23,6 +24,11 @@ window.location.reload()
 }
   </script>
 -->
+<style>
+  input:focus {
+    outline:none;
+}
+</style>
   </head>
   <body>
 
@@ -32,7 +38,7 @@ window.location.reload()
     <div id="container">
       <div class="center-align">
         <p>Webhook Link:</p><input type='password' id="link" placeholder="Enter Discord Webhook url" required>
-        <p>Bot Username:</p><input type="text" id="username" placeholder="Type the Username of the Webhook here (Optional, but recommended)" value="">
+        <p>Bot Username:</p><input type="text" id="username" placeholder="Type the Username of the Webhook here (Optional, but recommended)" value="Nex">
         <p>Avatar URL:</p><input type="text" id="avatar" placeholder="Image URL">
         <p>Content:</p><input type="text" id="content" placeholder="Enter message here">
         <br>
